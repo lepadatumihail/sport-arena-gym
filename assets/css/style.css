@@ -14113,6 +14113,9 @@ iframe {
 /*-----------------------
     Footer Style Here  
 ------------------------*/
+.logo{
+  min-width: 200px;
+}
 .logo a img {
   max-height: 55px;
 }
