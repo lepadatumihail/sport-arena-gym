@@ -88,7 +88,7 @@
   --color-primary-alt: #059DFF;
   --color-primary-light: #059DFF;
   --color-primary-lightest: #059DFF;
-  --color-secondary: #fec700;
+  --color-secondary: #f2ff00;
   --color-tertiary: #6549D5;
   --color-tertiary-alt: #0b0524;
   --color-pink: #E33FA1;
@@ -12397,7 +12397,7 @@ Timeline Area
   right: -2px;
   bottom: -2px;
   left: -2px;
-  background-color: var(--color-primary);
+  background-color: #fe6e00dc;
 }
 .rainbow-pricing .pricing-table-inner .pricing-header {
   margin-bottom: 30px;
@@ -14382,13 +14382,13 @@ iframe {
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .height-950 {
-    height: auto;
+    height: 100vh;
     padding: 150px 0;
   }
 }
 @media only screen and (max-width: 767px) {
   .height-950 {
-    height: auto;
+    height: 100vh;
     padding: 150px 0;
   }
 }
@@ -14625,7 +14625,7 @@ iframe {
 }
 .slider-style-1 .inner .header-caption span {
   color: var(--color-white);
-  font-size: 85px;
+  font-size: 70px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .slider-style-1 .inner .header-caption span {
