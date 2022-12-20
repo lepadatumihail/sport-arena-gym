@@ -14385,7 +14385,7 @@ iframe {
 }
 
 .height-950 {
-  height: 950px;
+  height: 100vh;
   display: flex;
   align-items: center;
 }
