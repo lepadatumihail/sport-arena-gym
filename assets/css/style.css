@@ -1307,7 +1307,16 @@ iframe {
     Background Image 
 =============================*/
 .bg_image_fixed {
-  background-attachment: fixed !important;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+@media only screen and (max-device-width: 1366px) {
+  .bg_image_fixed {
+    background-attachment: scroll;
+  }
 }
 
 .bg_image--1 {
